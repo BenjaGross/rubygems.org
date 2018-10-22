@@ -7,6 +7,14 @@ gem 'mime-types', '~> 2.99', require: 'mime/types/columnar'
 gem 'rails', '~> 5.1.0'
 gem 'rails-i18n'
 
+
+gem 'rack-mini-profiler'
+gem 'memory_profiler'
+gem 'flamegraph'
+gem 'stackprof'
+# gem 'ruby-prof'
+
+gem 'benchmark-ips'
 gem 'autoprefixer-rails'
 gem 'aws-sdk', '~> 2.2'
 gem 'clearance'
